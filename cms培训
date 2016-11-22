@@ -1,0 +1,31 @@
+CMS的安装：
+1，配置文件，CMS——client.ini
+
+2,cmswkf服务的配置
+
+3，administrator的配置
+
+#系统框架  
+cap ------  cms  ---------sap
+
+主数据配置  
+##新建银行
+###新建支行  需要填写办公地址，银行号（bsb_code）--在sap中表示为dc的银行信息
+五点以后不要进行跨行异地DC
+
+放款都是公对公
+扣款都是公对私
+
+###银行与支行要进行关联
+
+##经销商，要配置开户银行信息
+##经销商角色，配置dealer code ，lr guarartee
+
+##公司配置  
+
+凭证生成，adhoc手动上传  dayend 日结自动上传。
+
+#ET 提前结清
+#收款一定要查看receipt
+
+ODI (over duit inster)罚息
