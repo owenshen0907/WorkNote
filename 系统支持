@@ -14,8 +14,21 @@
 ##找测试环境
 ##找安装文档
 ##关闭相关服务
-##复制原程序包（确认该包是生产上最新的包）
+##复制原程序包（确认该包是生产上最新的包 copy生产的包）
 ##打patch（找到配置文件，查看配置）
 ##有sql脚本，要执行脚本
 ##重启服务
 ##开始测试
+
+#最新cap  patch
+##copy生产的的cap 包
+##原包添加key值
+##新建pboc的服务，改配置
+##运行程序生成 链接DB的文件
+##新建  CAP repoing服务
+##
+
+
+#数据库
+##pboc_inquary_reques   回复T 表示已经上传，F表示没有
+##PCM的DB   pbInterface表           INTERFACETYPE 1表示文件的路径信息，2表示文件    SENDFLAG
