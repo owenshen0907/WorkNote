@@ -30,5 +30,10 @@
 
 
 #数据库
-##pboc_inquary_reques   回复T 表示已经上传，F表示没有
-##PCM的DB   pbInterface表           INTERFACETYPE 1表示文件的路径信息，2表示文件    SENDFLAG
+####在pboc Information 点击inquery会建立一次连接。
+##netsol的DB  pboc_inquary_reques表   回复T 表示已经上传，F表示没有    inquery 查询
+##PCM的DB     pbInterface表           INTERFACETYPE 1表示文件的路径信息，2表示文件    SENDFLAG  1，表示pbocReport已经发送（发送共享盘） （查看） 
+####tomcat 启动pcm程序（注意用户权限可以访问要传递的最终路径）
+
+###CAP pbocInfomation inquery --->netsol 查看第一次连接是否成功，（在应用服务器上生成文件表示true）
+                             ---->71 pcm发回征信报告， （生成接收的文件，并生成要发送的文件）---->
