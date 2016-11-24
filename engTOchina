@@ -1,0 +1,44 @@
+等额本息
+term  期数     gross  总共     amortize  摊销
+
+#summary report      报表汇总
+contract_nbr         合同号	
+financed_amt	       金融产品总额           金融产品总额=东正总本金+银行总本金
+
+afc_total_principal	 东正总本金
+afc_total_interest	 东正总利率
+
+afc_os_principal	   东正剩余本金           =总本-已还
+afc_os_interest	     东正剩余利率           =总利息-已还
+afc_sub_total	       东正剩余总额           以上两项相加
+
+bank_total_principal 银行总本金
+bank_total_interest	 银行总利率
+
+bank_os_principal	   银行剩余本金
+bank_os_interest	   银行剩余利率
+bank_sub_total	     银行剩余总额
+
+handling_fee			   手续费                 手续费=客户利率-银行利率
+
+#bank payment       还款表
+contract_nbr	       合同号
+
+borrower_nme	       借款者姓名
+borrower_id	         借款者ID
+request_status	     还款状态
+receipt_dte          收款日期
+
+afc_principal_amt	   东正本金金额
+afc_intrst_amt	     东正利息金额
+
+afc_sub_total	       东正总共剩余金额
+
+bank_principal_amt	 银行本金金额
+bank_intrst_amt	     银行利息金额
+
+bank_sub_total	     银行总共剩余金额
+receipt_typ	         收回状态
+receipt_amt	         接收金额
+handling_fee	       手续费
+
