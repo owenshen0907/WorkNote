@@ -1,0 +1,2 @@
+已知字段名，可以用  select table_name from user_tab_Columns where column_name = 'JL_DD_GEN_FILEPATH_NME'
+
