@@ -1,0 +1,16 @@
+
+#关于连接，cms与sap通过DBlink连接，查看schedu.job可以看CMS多久扫一次中间库的数据，给cms进行反馈。
+
+dd dc statte 0,1,2,3   flag n,表示是否反馈到cms(通过schedu.job可以让它直接反馈到CMS)
+
+dayend前 清理dd dc 的中间库
+
+
+#财务数据不对 先查看中间库
+
+sap连接信息在172.16.10.68中，
+
+
+zfie302 查看失败原因
+
+fb03  查看凭证
