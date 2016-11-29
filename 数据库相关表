@@ -1,0 +1,9 @@
+contract  ---合同信息表
+payable_contract ---还款表
+applicant_type ---申请表信息
+DISBURSEMENT
+
+TIU_PER
+
+
+len(字段)
