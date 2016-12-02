@@ -1,0 +1,14 @@
+pcm 涉及两个数据库，pcmuat库，retail库，
+#在inquery时，进行第一次握手 pboc_inquiry_request   会有状态位，显示是否发出申请
+
+#此时pcm库中，pbInterface表中会显示，反馈的情况，
+
+interfacetype  vlue为2 表示发送文件    sendflag vlue为1表示成功发送  -1 为发送失败
+               vlue为1 表示发送路径
+               
+主要路径说明：
+#C:\DZAF_DB_Config          ---pcm链接retail数据库的链接信息
+#C:\Service_Request_Logs    ---inquery 的反馈，在web页面显示用的
+#C:\Service_Response_Logs   ---view  的反馈，在web页面显示用的，
+#D:\CAPPBOCReports          ---pooc报告，存储的位置
+#
