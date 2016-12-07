@@ -4,6 +4,7 @@ pcm 涉及两个数据库，pcmuat库，retail库，
 #此时pcm库中，pbInterface表中会显示，反馈的情况，
 
 interfacetype  vlue为2 表示发送文件    sendflag vlue为1表示成功发送  -1 为发送失败
+当查询过一次后将不再进行第二次发送文件，而是直接发送文件路径（所以不再有interfacetype 为二的接口响应）
                vlue为1 表示发送路径
                
 主要路径说明：
@@ -12,3 +13,6 @@ interfacetype  vlue为2 表示发送文件    sendflag vlue为1表示成功发�
 #C:\Service_Response_Logs   ---view  的反馈，在web页面显示用的，
 #D:\CAPPBOCReports          ---pooc报告，存储的位置
 #
+71 上，D:\xmlbak
+下的两个文件夹，request 和 response 分别为。请求 回应 文件夹
+
