@@ -1,3 +1,5 @@
+PCM 生产环境，172.16.10.46
+server／logs／tomcat7-stdout.log
 pcm 涉及两个数据库，pcmuat库，retail库，
 #在inquery时，进行第一次握手 pboc_inquiry_request   会有状态位，显示是否发出申请
 
